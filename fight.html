@@ -6,27 +6,26 @@
 	<link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
-	<form action="index.html">
-				<input type="submit" value="Start Over">
-	</form>
+<body onload="typeWriter()">
 	<div id="header">
 		<h1 id="rainbow">
 			Cats are Narcissists
 		</h1>
-		<h2>
-			A website by <a href="http://sanfengwang.com">Sanfeng</a>
-		</h2>
 	</div>
 	<div id="main"> 
-		<h3>
-			Part 2 - Winter is <span style="color: red">Angry</span>
-		</h3>
+		<h2>
+			Part 2 - Winter is <span style="color: red">angry</span>
+		</h2>
 		<div >
 			<img id="" src="gifs/basement.gif">
 		</div>
+		<br>
+		<img id="" src="gifs/thinking.gif">
+		<br>
 		<div id="questionaire">
-			<h3>What should Winter pick?</h3>
+			<div class="speech-bub"> 
+				<h2 id="thoughts"></h2>
+			</div>
 			<form action="hammer.html">
 				<input type="submit" value="Hammer">
 			</form>
@@ -37,7 +36,24 @@
 			</form>
 			<p>
 			</p>
+			<form action="index.html">
+				<input type="submit" value="Start Over">
+			</form>
 		</div>
 	</div>
+
+<script>
+	var i = 0;
+	var txt = 'Hmmm...which one should I pick?';
+	var speed = 120;
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("thoughts").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+	  }
+	}
+</script>
 </body>
 </html>

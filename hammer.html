@@ -6,28 +6,42 @@
 	<link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
-	<form action="index.html">
-				<input type="submit" value="Start Over">
-	</form>
+<body onload="typeWriter()">
 	<div id="header">
 		<h1 id="rainbow">
 			Cats are Narcissists
 		</h1>
-		<h2>
-			A website by <a href="http://sanfengwang.com">Sanfeng</a>
-		</h2>
 	</div>
 	<div id="main"> 
-		<h3>
-			Part 3 - Winter is <span style="color: red">Dead</span>
-		</h3>
+		<h2>
+			Part 3 - Winter is <span style="color: red">dead</span>
+		</h2>
 		<div >
 			<img id="" src="gifs/hammer.gif">
 		</div>
 		<div id="questionaire">
-			<h3>Welp. That backfired.</h3>
+			<br>
+			<div class="speech-bub"> 
+				<h2 id="thoughts"></h2>
+			</div>
+			<form action="index.html">
+				<input type="submit" value="Start Over">
+			</form>
 		</div>
 	</div>
+
+<script>
+	var i = 0;
+	var txt = 'Welp...that backfired';
+	var speed = 150;
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("thoughts").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+	  }
+	}
+</script>
 </body>
 </html>
