@@ -1,6 +1,3 @@
-let dora;
-let diego;// Declare variable 'img'.
-let clippy
 var r;
 var b;
 var g;
@@ -10,7 +7,10 @@ var up;
 var count;
 var stop = false;
 let fontsize = 60;
-let sun;
+var up_arr = false;
+var down_arr = false;
+var left_arr = false;
+var right_arr = false;
 
 /*
 george = map(mouseX, 0, width, 0, TWO_PT)
@@ -19,12 +19,6 @@ rotate(george)
 scale(george)
 rect(mouseX, 0, 100, 300)
 */
-function preload() {
-	dora = loadImage('dora.png'); // Load the image
-	diego = loadImage('diego.png');
-	clippy = loadImage('clippy.png');
-	sun = loadImage('sun.png');
-}
 
 
 function setup() {
@@ -47,10 +41,6 @@ function setup() {
   fill(ourc)
   count = 0;
   var us = rect(x, y, 15, 10, 15, 15, 15, 0)
-  image(dora, 550, 330, dora.width / 25, dora.height / 25);
-  image(diego, 5, 330, diego.width / 30, diego.height / 30);
-  image(clippy, 525, 5, clippy.width / 5, clippy.height / 5);
-	image(sun, 5, 5, sun.width/12, sun.height/12);
   //fill(0);
   //textSize(fontsize);
   // text("TEST", LEFT, 80);
@@ -58,6 +48,10 @@ function setup() {
 }
 
 function draw() {
+  up_arr = false;
+  down_arr = false;
+  left_arr = false;
+  right_arr = false;
   if (!stop) {
     c = color((random(0, 255)), (random(0, 255)), (random(0, 255)))
     rx = random(10, width - 10);
@@ -102,36 +96,74 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
       if (x < width - 15) {
         x++;
+        right_arr = true;
       }
     } else if (keyIsDown(LEFT_ARROW)) {
       if (x >= 0) {
         x--;
+        left_arr = true;
       }
     }
     if (keyIsDown(UP_ARROW)) {
       if (y > 75) {
         y--;
+        up_arr = true;
       }
     } else if (keyIsDown(DOWN_ARROW)) {
       if (y < 315) {
         y++;
+        down_arr = true;
       }
     }
     fill(c)
-    if (count % 12 == 0 && count <= 6000) {
-      rect(rx, ry, 11, 11, 20, 15, 10, 5)
+    if (count % 60 == 0 && count <= 6000) {
+      rect(rx, ry, random(100), random(325-ry), random(30), random(30), random(30), random(30))
     }
     count++;
     ourc = color(r, g, b);
     fill(ourc)
     rect(x, y, 15, 10, 25, 5, 25, 5)
   }
-	textSize(16);
-	textAlign(CENTER)
-	text("Help us draw a mural!", 60, 30, 200, 50)
-  text("Use the arrow keys to move around!", 350, 15, 200, 50)
-	text("Use the a, s, and d keys to play with the RBG values!", 70, 340, 200, 50)
-	text("Use the f key to switch between darker and ligher!", 340, 340, 200, 50)
+  textSize(48);
+  textAlign(CENTER)
+  fill(r, 255, 255)
+  text("a", 40, 375)
+  fill(255, g, 255)
+  text("s", 100, 375)
+  fill(255, 255, b)
+  text("d", 160, 375)
+  if (up) { //black
+    fill(255,255, 255)
+  } else {
+    fill(0,0,0)
+  }
+  text("f", 300, 375)
+  textSize(36)
+  if (up_arr) { 
+    fill(0,0, 0)
+  } else {
+    fill(255, 255,255)
+  }
+  text("^", 500, 365)
+  textSize(30)
+  if (left_arr) { 
+    fill(0,0, 0)
+  } else {
+    fill(255, 255,255)
+  }
+  text("<", 480, 375)
+  if (right_arr) { 
+    fill(0,0, 0)
+  } else {
+    fill(255, 255,255)
+  }
+  text(">", 520, 375)
+  if (down_arr) { 
+    fill(0,0, 0)
+  } else {
+    fill(255, 255,255)
+  }
+  text("v", 500, 395)
 }
 
 function keyPressed() {
