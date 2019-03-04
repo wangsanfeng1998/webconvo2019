@@ -117,7 +117,7 @@ function draw() {
     }
     fill(c)
     if (count % 60 == 0 && count <= 6000) {
-      rect(rx, ry, random(100), random(325-ry), random(30), random(30), random(30), random(30))
+      rect(rx, ry, random(100), random(325-ry), random(60), random(60), random(60), random(60))
     }
     count++;
     ourc = color(r, g, b);
