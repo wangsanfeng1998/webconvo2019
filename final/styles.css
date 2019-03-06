@@ -5,3 +5,15 @@
 body {
 	background-color: black;
 }
+
+div {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+iframe {
+	position: absolute;
+	left: 10px;
+	top: 600px;
+}
