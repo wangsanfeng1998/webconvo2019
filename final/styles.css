@@ -47,6 +47,7 @@ button {
 	color: yellow;
 	background-color: black;
 	font-size: 26px;
+	border-color: black;
 }
 
 #bulb {
@@ -57,7 +58,18 @@ button {
 	z-index: 10;
 }
 
+#finish {
+	position: absolute;
+	
+ 	/* 1035 
+ 	*/
+	left: 950px;
+	height: 200px;
+	z-index: -1;
+}
+
 .final {
+
 	color: #fff;
 	background-color: black;
 	z-index: 2;

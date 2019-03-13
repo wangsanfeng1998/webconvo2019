@@ -6,47 +6,85 @@ var windows = [];
 var count = 0;
 var toilet;
 var items = [];
-
+var ppl = []
 
 //src, horizontal, vertical, width, height, value, description
-bulls = ["bulls.jpg", 900, 25, 82, 120, 40, "Chicago Bulls poster - 1996"]
+bulls = ["bulls.jpg", 900, 25, 82, 120, 20, "Chicago Bulls poster - 1996"]
 jordans = ["jordans.png", 1030, 340, 100, 60, 180, "Air Jordan 1's - super worn out"]
 basketball = ["basketball.png", 950, 300, 50, 50, 10, "Basketball - worn out and used often"]
-backpack = ["backpack.png", 1050, 220, 100, 100, 60, "Backpack - light and empty"]
+backpack = ["backpack.png", 1050, 220, 100, 100, 50, "Backpack - light and empty"]
 
-cooking = ["cooking.png", 900, 50, 111.11, 58.5, 100, "Cooking utensils - freshly bought"]
-mickey = ["mickey.png", 1050, 220, 60, 60, 40, "Mickey Mouse backpack - full of toys"]
-crayons = ["crayons.png", 950, 300, 19.3, 26.5, 20, "Crayons - have they been chewed on?"]
-teddy = ["teddybear.png", 1030, 340, 60, 70, 30, "Teddy Bear - all wet"]
+cooking = ["cooking.png", 900, 50, 111.11, 58.5, 80, "Cooking utensils - freshly bought"]
+mickey = ["mickey.png", 1070, 255, 60, 60, 30, "Mickey Mouse backpack - full of toys"]
+crayons = ["crayons.png", 950, 340, 19.3, 26.5, 20, "Crayons - have they been chewed on?"]
+teddy = ["teddybear.png", 1030, 360, 60, 70, 15, "Teddy Bear - all wet"]
 
-budweiser = ["budweiser.png", 820, 500, 32, 24, 5, "Crushed Budweiser -  still half full"]
-pack1 = ["budlight.png", 830, 260, 130, 100, 36, "Pack of Bud Light - almost expired"]
-pack2 = ["budlight.png", 960, 260, 130, 100, 36, "Pack of Bud Light - that's a lotta beer"]
-doritos = ["doritos.png", 960, 260, 33.4, 48.3, 11, "Doritos bag - super greasy"]
+budweiser = ["budweiser.png", 880, 480, 32, 24, 5, "Crushed Budweiser -  still half full"]
+pack1 = ["budlight.png", 830, 260, 117, 90, 25, "Pack of Bud Light - almost expired"]
+pack2 = ["budlight.png", 960, 260, 117, 90, 25, "Pack of Bud Light - that's a lotta beer"]
+doritos = ["doritos.png", 1070, 370, 33.4, 48.3, 15, "Doritos bag - super greasy"]
 
-treadmill = ["treadmill.png", 850, 200, 200, 200, 4000, "Treadmill - seriously?"]
-makeup = ["makeup.png", 850, 200, 16, 10, 700, "Makeup - can't even recognize any of these brands"]
-mirror = ["makeup.png", 850, 200, 30, 30, 35, "Mirror - this person is proud of themselves"]
-lv = ["lv.png", 960, 260, 33.4, 48.3, 8000, "Louis Vuitton bag - looks fake tbh"]
+treadmill = ["treadmill.png", 850, 200, 200, 200, 800, "Treadmill - seriously?"]
+makeup = ["makeup.png", 1010, 170, 48, 30, 400, "Makeup - can't even recognize any of these brands"]
+mirror = ["mirror.png", 1030, 135, 50, 50, 35, "Mirror - this person is very proud of themselves"]
+lv = ["lv.png", 960, 160, 24.5, 18.2, 8000, "Louis Vuitton bag - looks fake tbh"]
+heels = ["heels.png", 1080, 250, 52.52, 55.76, 60, "High heels - must go out a lot"]
 
-hanger1 = ["hanger.png", 800, 20, 50, 27, 5, "Coat hanger - not much to look at"]
-hanger2 = ["hanger.png", 830, 20, 50, 27, 5, "Coat hanger - not much to look at"]
-jeans = ["jeans.png", 830, 25, 178.5, 273, 40, "Jeans - stained with dirt and grease"]
-stained = ["stained.png", 800, 25, 134, 118, 20, "Strained shirt - I hope that's just dirt"]
+hanger1 = ["hanger.png", 960, 20, 50, 27, 5, "Coat hanger - not much to look at"]
+hanger2 = ["hanger.png", 1030, 20, 50, 27, 5, "Coat hanger - not much to look at"]
+jeans = ["jeans.png", 1010, 25, 178.5 * .5, 273 * .5, 25, "Jeans - stained with dirt and grease"]
+stained = ["stained.png", 940, 25, 134 * .5, 118 * .5, 10, "Strained shirt - I hope that's just dirt"]
+framed = ["framed.jpg", 1000, 270, 50, 60, 20, "Framed picture - mom or wife?"]
 
 dumbells = ["dumbells.png", 820, 70, 60, 60, 50, "70 pound weights - this is a big boy"]
 gym = ["gym.png", 820, 70, 60, 60, 50, "Gym bench - tattered"]
-/*
 bar = []
-protein
-shake
+protein = []
+shake = []
 
-naruto = 
-kirby = 
-dbz = 
-luffy = 
-gundam = 
+naruto = ["naruto.png", 900, 25, 82, 120, 25, "Naruto poster - must have been a fan"]
+kirby = ["kirby.png", 1030, 390, 60, 60, 25, "Kirby plushie - likes getting eaten?"]
+dbz = ["dbz.png", 850, 300, 43, 60.3, 45, "Dragonball Z DVD collection - likes to watch filler"]
+luffy = ["luffy.png", 860, 440, 60, 60, 30, "One Piece pillow - probably sleeps with this"]
+gundam = ["gundam.png", 1000, 240, 107, 120, 115, "Gundam figurine - collector's edition"]
 
+switc = ["switch.png", 1000, 250, 100, 100, 300, "Nintendo Switch - freshly bought"]
+bowser = ["bowser.png", 850, 320, 64, 48, 40, "Bowser Amiibo - still covered in plastic"]
+
+lohan = ["lohan.jpg", 900, 25, 130 * .5, 160 * .5, 15, "Lindsay Lohan poster - circa Mean Girls"]
+kleenex = ["kleenex.png", 850, 300, 43, 60.3, 45, "Kleenex - do NOT want to know what this is used for"]
+alienware = ["alienware.png", 1000, 270, 100, 100, 300, "Alienware laptop - probably watches porn on this"]
+margot = ["margot.png", 1030, 25, 178.5 * .3, 273 * .3, 25, "Margot Robbie poster - new Lohan?"]
+
+tweezers = ["tweezers.png", 850, 310, 25, 25, "Tweezers - please tell me they're for nose hairs"]
+knife1 = ["knife.png", 1000, 400, 25, 25, 30, "Cutting knife - bloody?!?"]
+cuttingtable = ["cuttingtable.png", 850, 200, 365 * .65, 328 * .65, 25, "Cutting table - is that human blood?"]
+rope = ["rope.png", 1030, 370, 851 * .1, 646 * .1, 15, "Rope - what could this be used for..."]
+handcuffs = ["handcuffs.png", 1030, 380, 20, 20, 45, "Handcuffs - hope this guy is just kinky"]
+
+mousetrap1 = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+mousetrap2 = ["mousetrap.png", 920, 480, 50, 28, 30, "Mousetraps - wouldn't want to eat the food cooked here"]
+foodcart = ["foodcart.png", 850, 200, 200, 200, 50, "Food cart - probably a street vendor"]
+spatula = ["spatula.png", 870, 190, 20, 20, 20, "Spatula - needs to be cleaned more"]
+
+mao = ["mao.png", 900, 25, 82, 120, 35, "Mao poster - there may or may not be a camera installed"]
+marx = ["marx.png", 1040, 25, 178.5 * .5, 273 * .5, 55, "Marx drawing - epitome of art"]
+red = ["red.png", 850, 300, 37, 50, 35, "Mao's red book - required bedtime reading"]
+redribbon = ["redribbon.png", 930, 300, 40, 43.5, 15, "PRC red ribbon - awarded in 1st grade"]
+cigarettes = ["cigarettes.png", 1010, 170, 30, 30, 25, "Cigarettes - classic mainland"]
+
+laptop = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+spinner = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+ctci = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+soylent1 = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+soylent2 = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+
+airpods = ["airpods.png", 1030, 370, 30, 30, 280, "Airpods - this is the only thing this person owns"]
+
+knife2 = ["knife.png", 1000, 400, 25, 25, 30, "Knife - could be used for robbery and assault"]
+flashlight = ["flashlight.png", 1030, 360, 35, 35, 30, "Flashlight - good for snooping around"]
+
+/*
 bulbasaur = 
 charmander = 
 squirtle = 
@@ -58,41 +96,14 @@ ps4 =
 surprised = 
 fortnite = 
 
-lohan = 
-kleenex = 
-alienware = 
-margot = 
-
-switc = ["switch.png", 1000, 250, 100, 100, 300, "Nintendo Switch - freshly bought"]
-bowser = 
 
 //10
-
-laptop = 
-spinner = 
-ctci = 
-soylent1 = 
-soylent2 = 
 
 
 fridge = 
 umbrella = 
-heels = 
 handbag = 
 flowers = 
-
-framed = ["framed.jpg", 1000, 270, 50, 50, 20, "Framed picture - mom or wife?"]
-
-tweezers = 
-knife1 = ["knife.png", 1000, 400, 25, 25, 30, "Cutting knife - bloody?!?"]
-cuttingtable =  
-rope = 
-handcuffs = 
-
-mousetrap1 = 
-mousetrap2 = 
-foodcart = 
-spatula = 
 
 lotr = 
 harry = 
@@ -102,12 +113,6 @@ lamp =
 
 knife2 = 
 flashlight = 
-
-mao = 
-marx = 
-red = 
-redribbon = 
-cigarettes = 
 
 chinalamp = 
 china = 
@@ -145,7 +150,8 @@ function preload() {
 for(var i=0; i<4; i++) {
     items[i] = new Array(6);
     matrix[i] = new Array(6);
-    windows[i] = new Array(6)
+    windows[i] = new Array(6);
+    ppl[i] = new Array(6);
 }
 
 
@@ -153,6 +159,7 @@ for(var i=0; i<4; i++) {
 for(var i = 0; i < matrix.length; i++) {
   for(var j = 0; j <matrix[0].length; j++) {
     matrix[i][j] = [bulls, basketball, backpack, jordans, empty];
+    ppl[i][j] = ["young athlete", 260]
   }
 }
 
@@ -176,21 +183,40 @@ for (let index = 0; index < props.length; index++) {
 price = createDiv(" ");
 price.id('description')
 //price.position(810, 510)
-/*
+
 matrix[0][0] = [bulls, basketball, backpack, jordans, empty];
+ppl[0][0] = ["young athlete", 260]
 matrix[0][1] = [cooking, mickey, crayons, teddy, empty];
+ppl[0][1] = ["young mother and her child", 145]
 matrix[0][2] = [budweiser, pack1, pack2, doritos, empty];
+ppl[0][2] = ["eumployed loser", 70]
 matrix[0][3] = [treadmill, mirror, makeup, lv, heels];
+ppl[0][3] = ["socialite", 9235]
 matrix[0][4] = [hanger1, hanger2, stained, jeans, framed];
+ppl[0][4] = ["construction worker", 45]
 matrix[0][5] = [naruto, kirby, dbz, luffy, gundam];
+//fix prices
+ppl[0][5] = ["anime fanatic", 260]
+
 
 matrix[1][0] = [switc, bowser, empty, empty, empty];
+ppl[1][0] = ["Nintendo fan", 340]
 matrix[1][1] = [lohan, kleenex, margot, alienware, empty];
-matrix[1][2] = [knife1, tweezers, handcuffs, rope, cuttingtable];
-matrix[1][3] = [spatula, mousetrap2, mousetrap1, foodcart, cooking]
-matrix[1][4] = [mao, marx, cigarettes, red, redribbon]
-matrix[1][5] = [spinner, soylent2, soylent1, laptop, ctci]
+ppl[1][1] = ["incel", 210]
 
+matrix[1][2] = [knife1, tweezers, handcuffs, rope, cuttingtable];
+ppl[1][2] = ["serial killer", 105]
+matrix[1][3] = [spatula, mousetrap2, mousetrap1, foodcart, cooking]
+ppl[1][3] = ["dubious food cart owner", 65]
+matrix[1][4] = [mao, marx, cigarettes, empty, empty]
+ppl[1][4] = ["honorable PRC citizen", 85]
+matrix[1][5] = [spinner, soylent2, soylent1, laptop, ctci]
+ppl[1][5] = ["EECS intern", 245]
+
+matrix[2][4] = [flashlight, knife2, empty, empty, empty]
+matrix[3][4] = [airpods, empty, empty, empty, empty]
+ppl[3][4] = ["rich boy", 245]
+/*
 matrix[2][0] = [dumbells, protein, gym, bar, shake]
 matrix[2][1] = [china, chinalamp, tea, empty, empty] 
 matrix[2][2] = [lamp, lotr, sherlock, harry, glasses]
@@ -251,7 +277,7 @@ function setup() {
       windows[j][i] = temp;
       temp.mouseClicked(function() {
         console.log("clicked" + temp.id)
-        displayRoom(j, i, props)}
+        displayRoom(ppl, j, i, props)}
       )
       //temp.mouseOver(hover(matrix, j, i));
       //console.log(matrix)
@@ -277,7 +303,7 @@ function setup() {
   intro.size(480, 50)
 }
 
-function displayRoom(row, column, images) {
+function displayRoom(ppl, row, column, images) {
   if (count > 0) {
   var prev = document.getElementById('current').id = ""
 }
@@ -336,8 +362,11 @@ function displayRoom(row, column, images) {
   */
   count++;
   button = createButton("They're the richest!");
-  button.position(1000, 600);
-  button.mousePressed(end(row, column));
+  //button.position(1000, 600);
+  button.id("finish")
+  button.mouseClicked(function() {
+        console.log("button" + temp.id)
+        end(ppl, row, column)});
 }
 
 function hover(currImage) {
@@ -357,26 +386,39 @@ function clearValue() {
   price.html("");
 }
 
-function end(row, column) {
-  console.log(mouseX + " " + mouseY)
-  if (mouseX > 1000 && mouseY > 600) {
-    // var divs = document.getElementsByTagName("div"), index;
-    // var imgs = document.getElementsByTagName("img"), index;
+function end(ppl, row, column) {
 
-    // for (index = divs.length - 1; index >= 0; index--) {
-    //     divs[index].parentNode.removeChild(divs[index]);
-    //     //imgs[index].parentNode.removeChild(imgs[index]);
-    // }
-    // if (row == 2 && column == 4) {
-    //   resizeCanvas(0, 0);
-    //   let end = createElement('h1', 'You decide to not rob anyone and go back home');
-    //   end.class('final')
-    // } else {
-    //   resizeCanvas(0, 0);
-    //   let end = createElement('h1', 'You killed and sold their possesions for $0');
-    //   end.class('final')
-    // }
+    var divs = document.getElementsByTagName("div"), index;
+    //var imgs = document.getElementsByTagName("img"), index;
+
+    //var elem = document.getElementById('finish');
+    var elems = document.getElementsByTagName('button'), index;
+    for (index = elems .length - 1; index >= 0; index--) {
+        elems [index].parentNode.removeChild(elems [index]);
+        //imgs[index].parentNode.removeChild(imgs[index]);
+    }
+
+    for (index = divs.length - 1; index >= 0; index--) {
+        divs[index].parentNode.removeChild(divs[index]);
+        //imgs[index].parentNode.removeChild(imgs[index]);
+    }
+
+    for (var i= document.images.length; i-->0;) {
+      document.images[i].parentNode.removeChild(document.images[i]);
+    }
+
+
+    if (row == 2 && column == 4) {
+      resizeCanvas(0, 0);
+      let end = createElement('h1', 'You decide to not rob anyone and go back home');
+      end.class('final')
+    } else {
+      resizeCanvas(0, 0);
+      let end = createElement('h1', 'You kill the ' + ppl[row][column][0] + ' as they come home.')
+      let sold = createElement('h1', 'You sell their possesions for $' + ppl[row][column][1] + '.');
+      end.class('final')
+      sold.class('final')
+    }
     console.log("end")
-  }
 }
 function draw() {}
