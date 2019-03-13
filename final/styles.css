@@ -1,9 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
-
-
 body {
 	background-color: black;
+}
+
+.window {
+	background-color: black;
+
 }
 
 div {
@@ -12,8 +15,71 @@ div {
 	font-weight: bold;
 }
 
+#current {
+	background-color: yellow;
+}
+
 iframe {
 	position: absolute;
 	left: 10px;
 	top: 600px;
+}
+
+#intro {
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	top: 550px;
+}
+
+#description {
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	position: absolute;
+	left: 820px;
+	top: 550px;
+}
+
+button {
+	color: yellow;
+	background-color: black;
+	font-size: 26px;
+}
+
+#bulb {
+	transform: scaleY(-1);
+}
+
+.prop {
+	z-index: 10;
+}
+
+.final {
+	color: #fff;
+	background-color: black;
+	z-index: 2;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
