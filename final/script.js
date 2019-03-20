@@ -26,21 +26,21 @@ doritos = ["doritos.png", 1070, 370, 33.4, 48.3, 15, "Doritos bag - super greasy
 
 treadmill = ["treadmill.png", 850, 200, 200, 200, 800, "Treadmill - seriously?"]
 makeup = ["makeup.png", 1010, 170, 48, 30, 400, "Makeup - can't even recognize any of these brands"]
-mirror = ["mirror.png", 1030, 135, 50, 50, 35, "Mirror - this person is very proud of themselves"]
-lv = ["lv.png", 960, 160, 24.5, 18.2, 8000, "Louis Vuitton bag - looks fake tbh"]
-heels = ["heels.png", 1080, 250, 52.52, 55.76, 60, "High heels - must go out a lot"]
+mirror = ["mirror.png", 1030, 135, 60, 60, 35, "Mirror - this person is very proud of themselves"]
+lv = ["lv.png", 1120, 250, 24.5 * 3, 18.2 * 3, 8000, "Louis Vuitton bag - looks fake tbh"]
+heels = ["heels.png", 1080, 280, 52.52 * 0.7, 0.7 * 55.76, 60, "High heels - must go out a lot"]
 
 hanger1 = ["hanger.png", 960, 20, 50, 27, 5, "Coat hanger - not much to look at"]
 hanger2 = ["hanger.png", 1030, 20, 50, 27, 5, "Coat hanger - not much to look at"]
-jeans = ["jeans.png", 1010, 25, 178.5 * .5, 273 * .5, 25, "Jeans - stained with dirt and grease"]
-stained = ["stained.png", 940, 25, 134 * .5, 118 * .5, 10, "Strained shirt - I hope that's just dirt"]
+jeans = ["jeans.png", 1020, 30, 178.5 * .5, 273 * .5, 25, "Jeans - stained with dirt and grease"]
+stained = ["stained.png", 950, 30, 134 * .5, 118 * .5, 10, "Strained shirt - I hope that's just dirt"]
 framed = ["framed.jpg", 1000, 270, 50, 60, 20, "Framed picture - mom or wife?"]
 
-dumbells = ["dumbells.png", 820, 70, 60, 60, 50, "70 pound weights - this is a big boy"]
-gym = ["gym.png", 820, 70, 60, 60, 50, "Gym bench - tattered"]
-bar = []
-protein = []
-shake = []
+dumbells = ["dumbells.png", 820, 300, 60, 60, 50, "70 pound weights - this is a big boy"]
+gym = ["gym.png", 820, 160, 734 * .5, 500 * .5, 80, "Gym bench - tattered"]
+bar = ["bar.png", 870, 170, 200, 200, 20, "Gym bar - rusted"]
+protein = ["protein.png", 1060, 240, 80, 80, 45, "Protein powder - almost expired"]
+shake = ["shake.png", 1020, 130, 40, 60, 45, "Protein shake - needs to be cleaned"]
 
 naruto = ["naruto.png", 900, 25, 82, 120, 25, "Naruto poster - must have been a fan"]
 kirby = ["kirby.png", 1030, 390, 60, 60, 25, "Kirby plushie - likes getting eaten?"]
@@ -57,89 +57,79 @@ alienware = ["alienware.png", 1000, 270, 100, 100, 300, "Alienware laptop - prob
 margot = ["margot.png", 1030, 25, 178.5 * .3, 273 * .3, 25, "Margot Robbie poster - new Lohan?"]
 
 tweezers = ["tweezers.png", 850, 310, 25, 25, "Tweezers - please tell me they're for nose hairs"]
-knife1 = ["knife.png", 1000, 400, 25, 25, 30, "Cutting knife - bloody?!?"]
+knife1 = ["knife.png", 1000, 400, 35, 35, 30, "Cutting knife - bloody?!?"]
 cuttingtable = ["cuttingtable.png", 850, 200, 365 * .65, 328 * .65, 25, "Cutting table - is that human blood?"]
 rope = ["rope.png", 1030, 370, 851 * .1, 646 * .1, 15, "Rope - what could this be used for..."]
 handcuffs = ["handcuffs.png", 1030, 380, 20, 20, 45, "Handcuffs - hope this guy is just kinky"]
 
 mousetrap1 = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
-mousetrap2 = ["mousetrap.png", 920, 480, 50, 28, 30, "Mousetraps - wouldn't want to eat the food cooked here"]
+mousetrap2 = ["mousetrap.png", 1080, 480, 50, 28, 30, "Mousetraps - wouldn't want to eat the food cooked here"]
 foodcart = ["foodcart.png", 850, 200, 200, 200, 50, "Food cart - probably a street vendor"]
-spatula = ["spatula.png", 870, 190, 20, 20, 20, "Spatula - needs to be cleaned more"]
+spatula = ["spatula.png", 890, 210, 40, 40, 20, "Spatula - needs to be cleaned more"]
 
 mao = ["mao.png", 900, 25, 82, 120, 35, "Mao poster - there may or may not be a camera installed"]
-marx = ["marx.png", 1040, 25, 178.5 * .5, 273 * .5, 55, "Marx drawing - epitome of art"]
-red = ["red.png", 850, 300, 37, 50, 35, "Mao's red book - required bedtime reading"]
-redribbon = ["redribbon.png", 930, 300, 40, 43.5, 15, "PRC red ribbon - awarded in 1st grade"]
-cigarettes = ["cigarettes.png", 1010, 170, 30, 30, 25, "Cigarettes - classic mainland"]
+marx = ["marx.png", 1040, 25, 120, 120, 55, "Marx drawing - fine art"]
+redbook = ["red.png", 850, 300, 37, 50, 35, "Mao's red book - required bedtime reading"]
+redribbon = ["redribbon.png", 925, 150, 40 * .6, 43.5 * .6, 15, "PRC red ribbon - awarded in 1st grade"]
+cigarettes = ["cigarettes.png", 1010, 170, 30, 30, 25, "Cigarettes - classic mainland Chinese"]
 
-laptop = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
-spinner = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
-ctci = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
-soylent1 = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
-soylent2 = ["mousetrap.png", 880, 480, 50, 28, 30, "Mousetraps - must get a lot of pests"]
+laptop = ["laptop.png", 1070, 250, 2400 * .04, 1353 * .04, 1500, "Laptop - newly bought Macbook"]
+spinner = ["spinner.png", 980, 420, 30, 30, 5, "Fidget Spinner - received from career fair"]
+ctci = ["ctci.png", 940, 320, 1000 * .05, 1428 * .05, 30, "Cracking the Coding Interview - Must have for any software engineer"]
+soylent1 = ["soylent.png", 1000, 270, 24, 60, 40, "Soylent - doesn't have time to cook?"]
+soylent2 = ["soylent.png", 880, 270, 24, 60, 40, "Soylent - too much time spent coding"]
+
+chinalamp = ["chinalamp.png", 1000, 125,70, 70, 95, "Fancy laptop - easily breakable"]
+china = ["champ.png", 925, 145, 500 * .15, 309 * .15, 85, "China - so tempted to smash it right now"]
+tea = ["tea.png", 840, 145, 988 * .07, 600 * .07, 120, "Tea set - very traditional"]
 
 airpods = ["airpods.png", 1030, 370, 30, 30, 280, "Airpods - this is the only thing this person owns"]
 
-knife2 = ["knife.png", 1000, 400, 25, 25, 30, "Knife - could be used for robbery and assault"]
+knife2 = ["knife.png", 1000, 400, 35, 35, 30, "Knife - could be used for robbery and assault"]
 flashlight = ["flashlight.png", 1030, 360, 35, 35, 30, "Flashlight - good for snooping around"]
 
-/*
-bulbasaur = 
-charmander = 
-squirtle = 
-pikachu = 
-fatpika = 
+lotr = ["lotr.png", 1060, 320, 50, 50, 25, "Lord of the Rings - read plenty of times"]
+harry = ["harry.png", 950, 320, 65, 65, 40, "Harry Potter - seems to have lots of dogears"]
+glasses = ["glasses.png", 920, 440, 1000 * .07, 1428 * .07, 15, "Reading glasses - left by the bed"]
+lamp = ["lamp.png", 800, 310, 72, 72, 30, "Night lamp - used for reading"]
+sherlock = ["sherlock.png", 880, 320, 45, 45, 15, "Sherlock Holmes - Chinese translation"]
 
-xbox = 
-ps4 = 
-surprised = 
-fortnite = 
+bulbasaur = ["bulbasaur.png", 810, 310, 280 * .3, 329 * .3, 25, "Bulbasaur - best starter"]
+charmander = ["charmander.png", 900, 300, 280 * .3, 329 * .3, 25, "Charmander - overrated"]
+squirtle = ["squirtle.png", 990, 300, 280 * .3, 329 * .3, 25, "Squirtle - not bad"]
+pikachu = ["pikachu.png", 1030, 270, 1280 * .15, 980 * .15, 25, "Pikachu - why is it ripped...?"]
+fatpika = ["fatpika.png", 1060, 150, 1536 * .1, 2048 * .1, 30, "Thicc Pikachu - looks like me"]
 
+xbox = ["xbox.png", 810, 310, 610 * .2, .2 * 450, 300, "Xbox - surprised it's still working"]
+ps4 = ["ps4.png", 920, 310, 507 * .25 , .25 * 220, 400, "PS4 - cracked on the top"]
+surprised = ["surprised.png", 1070, 70, 432 * .2, 351 *.2, 2.5, "Pikachu meme sticker - how old is this person?"]
+fortnite = ["fortnite.png", 900, 40, 878 *.08 , 1222 * .08, 6, "Fortnite poster - must be in middle school"]
 
-//10
+fridge = ["fridge.png", 920, 200, 220 * .6, 250 * .6, 105, "Fridge - healthy diet"]
+umbrella = ["umbrella.png", 1100, 180, 1860 * .09, 1760 * .09, 25, "Umbrella - perfect for Hong Kong weather"]
+handbag = ["handbag.png", 850, 230, 500 * .2, 648 * .2, 35, "Handbag - must go out a lot"]
+flowers = ["flowers.png", 880, 120, 633 * .1, .1 * 699, 18, "Flowers - seems to have an admirer"]
 
+infinity = ["infinity.png", 910, 30, 720 * .1, 1066 * .1, 15, "Infinity War poster - excited for the enxt one"]
+hulkbuster = ["hulkbuster.png", 1050, 300, 713 * .08, 924 * .08, 40, "Hulkbuster toy - always wanted this as a kid"]
+spiderman = ["spiderman.png", 830, 300, 611 * .08, 1106 * .08, 35, "Spiderman toy - covered in real cobwebs"]
+shield = ["shield.png", 1070, 40, 900 * .06, 900 * .06, 30, "Captain America Shield - maybe it's real vibranium"]
+nerf = ["nerf.png", 900, 280, 4160 * .03, .03 * 1516, 25, "Nerf Gun - do not want to mess with this guy"]
 
-fridge = 
-umbrella = 
-handbag = 
-flowers = 
+yeezy = ["yeezy.png", 950, 330, 1000 * .1, 600 * .1, 50, "Zebra Yeezys - definitely fake"]
+bred = ["bred.png", 1050, 320, 100, 100, 2000, "Bred Yeezys - fabric looks decent"]
+supreme = ["supreme.png", 820, 360, 1000* .05, 600 * .05, 70, "Supreme Hat - bandwagoner"]
+alien = ["alien.png", 880, 330, 640 * .12, .12 * 387, 4000, "Newest Yeezys - looks ugly tbh"]
 
-lotr = 
-harry = 
-sherlock = 
-glasses = 
-lamp = 
+katana = ["katana.png", 1060, 200, 800 * .1, 1198 * .1, 75, "Katana - unused"]
+headband = ["headband.png", 820, 340, 1254 * .04, 856 * .04, 25, "Naruto headband - this person definitely got bullied"]
+kaneki = ["kaneki.png", 980, 330, 506 * .1, 600 * .1, 35, "Kaneki figure - good taste at least"]
+greninja = ["greninja.png", 880, 330, 65, 65, 30, "Greninja figure - either young or immature"]
 
-knife2 = 
-flashlight = 
+drone = ["drone.png", 790, 320, 140, 80, 55, "Drone - must be hard to pilot with skyscrapers everywhere"]
+camera = ["camera.png", 920, 270, 1178 * .12, 1140 * .12, 60, "Camera - very high quality"]
+binoculars = ["binoculars.png", 830, 440, 880 * .06, 660 * .06, 35, "Binoculars - bird watching or people watching?"]
 
-chinalamp = 
-china = 
-tea = 
-
-infinity = 
-hulkbuster = 
-spiderman = 
-shield = 
-nerf = 
-
-yeezy = 
-bred = 
-supreme = 
-alien = 
-
-katana = 
-headband = 
-kaneki = 
-greninja = 
-
-drone = 
-camera = 
-binoculars = 
-
-airpods = 
-*/
 
 empty = ["empty.png", 0, 0, 0, 0, 0, ""]
 
@@ -155,13 +145,13 @@ for(var i=0; i<4; i++) {
 }
 
 
-
+/*
 for(var i = 0; i < matrix.length; i++) {
   for(var j = 0; j <matrix[0].length; j++) {
-    matrix[i][j] = [bulls, basketball, backpack, jordans, empty];
-    ppl[i][j] = ["young athlete", 260]
+  
   }
 }
+*/
 
 
 for (let index = 0; index < props.length; index++) {
@@ -200,37 +190,46 @@ ppl[0][5] = ["anime fanatic", 260]
 
 
 matrix[1][0] = [switc, bowser, empty, empty, empty];
-ppl[1][0] = ["Nintendo fan", 340]
+ppl[1][0] = ["Nintendo fan", 140]
 matrix[1][1] = [lohan, kleenex, margot, alienware, empty];
-ppl[1][1] = ["incel", 210]
+ppl[1][1] = ["incel", 1]
 
 matrix[1][2] = [knife1, tweezers, handcuffs, rope, cuttingtable];
-ppl[1][2] = ["serial killer", 105]
+ppl[1][2] = ["serial killer", 10]
 matrix[1][3] = [spatula, mousetrap2, mousetrap1, foodcart, cooking]
-ppl[1][3] = ["dubious food cart owner", 65]
-matrix[1][4] = [mao, marx, cigarettes, empty, empty]
-ppl[1][4] = ["honorable PRC citizen", 85]
+ppl[1][3] = ["dubious food cart owner", 5]
+matrix[1][4] = [mao, marx, cigarettes, redribbon, redbook]
+ppl[1][4] = ["honorable PRC citizen", 10]
 matrix[1][5] = [spinner, soylent2, soylent1, laptop, ctci]
-ppl[1][5] = ["EECS intern", 245]
+ppl[1][5] = ["EECS intern", 150]
 
-matrix[2][4] = [flashlight, knife2, empty, empty, empty]
-matrix[3][4] = [airpods, empty, empty, empty, empty]
-ppl[3][4] = ["rich boy", 245]
-/*
 matrix[2][0] = [dumbells, protein, gym, bar, shake]
+ppl[2][0] = ["gym fanatic", 30]
 matrix[2][1] = [china, chinalamp, tea, empty, empty] 
+ppl[2][1] = ["tea connoisseur", 95]
 matrix[2][2] = [lamp, lotr, sherlock, harry, glasses]
+ppl[2][2] = ["fantasy geek", 20]
+
 matrix[2][3] = [jordans, fortnite, ps4, surprised, xbox]
+ppl[2][3] = ["white boy", 300]
 matrix[2][4] = [flashlight, knife2, empty, empty, empty]
 matrix[2][5] = [flowers, fridge, heels, umbrella, handbag]
+ppl[2][5] = ["socalite", 70]
+
 
 matrix[3][0] = [infinity, nerf, hulkbuster, shield, spiderman]
+ppl[3][0] = ["Marvel fan", 85]
 matrix[3][1] = [yeezy, bred, alien, supreme, empty]
+ppl[3][1] = ["hypebeast", 1000]
 matrix[3][2] = [greninja, kaneki, katana, headband, empty]
-matrix[3][3] = [binoculars, camera, gundam, drone, nerf]
+ppl[3][2] = ["weaboo", 120]
+matrix[3][3] = [binoculars, empty, gundam, drone, nerf]
+ppl[3][3] = ["stalker (?)", 50]
 matrix[3][4] = [airpods, empty, empty, empty, empty]
-matrix[3][5] = [bulbasaur, charmander, squirtle, pikachu, fatpika]
-*/
+ppl[3][4] = ["rich boy", 245]
+matrix[3][5] = [bulbasaur, charmander, squirtle, fatpika, pikachu]
+ppl[3][5] = ["Pokemon fan", 55]
+
 }
 
 
@@ -358,10 +357,10 @@ function displayRoom(ppl, row, column, images) {
   image.position(matrix[row][column][1], matrix[row][column][2]);
   image.size(matrix[row][column][3], matrix[row][column][4]);
   image.mouseOver(function() {hover(row, column)});
-  image.mouseOut(function() {clearValue()});
+  image.mouseOut(function() {clearValue()});i
   */
   count++;
-  button = createButton("They're the richest!");
+  button = createButton("They must be the richest!");
   //button.position(1000, 600);
   button.id("finish")
   button.mouseClicked(function() {
@@ -414,10 +413,10 @@ function end(ppl, row, column) {
       end.class('final')
     } else {
       resizeCanvas(0, 0);
-      let end = createElement('h1', 'You kill the ' + ppl[row][column][0] + ' as they come home.')
-      let sold = createElement('h1', 'You sell their possesions for $' + ppl[row][column][1] + '.');
+      let end = createElement('h1', 'You kill the ' + ppl[row][column][0] + ' as they come home. You sell their possesions for $' + ppl[row][column][1] + '.')
+      //let sold = createElement('h1', 'You sell their possesions for $' + ppl[row][column][1] + '.');
       end.class('final')
-      sold.class('final')
+      //sold.class('final')
     }
     console.log("end")
 }

@@ -28,7 +28,7 @@ iframe {
 #intro {
 	color: white;
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 26px;
 	position: absolute;
 	left: 20px;
 	top: 550px;
@@ -48,6 +48,10 @@ button {
 	background-color: black;
 	font-size: 26px;
 	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: gray;
 }
 
 #bulb {
@@ -63,17 +67,20 @@ button {
 	
  	/* 1035 
  	*/
-	left: 950px;
-	height: 200px;
+	left: 910px;
+	top: 580px;
+	height: 50px;
 	z-index: -1;
 }
 
 .final {
-
+	position: absolute;
+	top: 50%;
 	color: #fff;
 	background-color: black;
 	z-index: 2;
   font-family: monospace;
+  font-size: 18px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
