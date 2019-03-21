@@ -26,20 +26,20 @@ doritos = ["doritos.png", 1070, 370, 33.4, 48.3, 15, "Doritos bag - super greasy
 
 treadmill = ["treadmill.png", 850, 200, 200, 200, 800, "Treadmill - seriously?"]
 makeup = ["makeup.png", 1010, 170, 48, 30, 400, "Makeup - can't even recognize any of these brands"]
-mirror = ["mirror.png", 1030, 135, 60, 60, 35, "Mirror - this person is very proud of themselves"]
-lv = ["lv.png", 1120, 250, 24.5 * 3, 18.2 * 3, 8000, "Louis Vuitton bag - looks fake tbh"]
-heels = ["heels.png", 1080, 280, 52.52 * 0.7, 0.7 * 55.76, 60, "High heels - must go out a lot"]
+mirror = ["mirror.png", 1030, 135, 60, 60, 35, "Mirror - this person is very proud of themself"]
+lv = ["lv.png", 1120, 260, 24.5 * 3, 18.2 * 3, 8000, "Louis Vuitton bag - looks fake tbh"]
+heels = ["heels.png", 1080, 285, 52.52 * 0.7, 0.7 * 55.76, 60, "High heels - must go out a lot"]
 
 hanger1 = ["hanger.png", 960, 20, 50, 27, 5, "Coat hanger - not much to look at"]
 hanger2 = ["hanger.png", 1030, 20, 50, 27, 5, "Coat hanger - not much to look at"]
-jeans = ["jeans.png", 1020, 30, 178.5 * .5, 273 * .5, 25, "Jeans - stained with dirt and grease"]
+jeans = ["jeans.png", 1010, 30, 178.5 * .5, 273 * .5, 25, "Jeans - stained with dirt and grease"]
 stained = ["stained.png", 950, 30, 134 * .5, 118 * .5, 10, "Strained shirt - I hope that's just dirt"]
 framed = ["framed.jpg", 1000, 270, 50, 60, 20, "Framed picture - mom or wife?"]
 
 dumbells = ["dumbells.png", 820, 300, 60, 60, 50, "70 pound weights - this is a big boy"]
 gym = ["gym.png", 820, 160, 734 * .5, 500 * .5, 80, "Gym bench - tattered"]
 bar = ["bar.png", 870, 170, 200, 200, 20, "Gym bar - rusted"]
-protein = ["protein.png", 1060, 240, 80, 80, 45, "Protein powder - almost expired"]
+protein = ["protein.png", 1030, 300, 80, 80, 45, "Protein powder - almost expired"]
 shake = ["shake.png", 1020, 130, 40, 60, 45, "Protein shake - needs to be cleaned"]
 
 naruto = ["naruto.png", 900, 25, 82, 120, 25, "Naruto poster - must have been a fan"]
@@ -69,17 +69,17 @@ spatula = ["spatula.png", 890, 210, 40, 40, 20, "Spatula - needs to be cleaned m
 
 mao = ["mao.png", 900, 25, 82, 120, 35, "Mao poster - there may or may not be a camera installed"]
 marx = ["marx.png", 1040, 25, 120, 120, 55, "Marx drawing - fine art"]
-redbook = ["red.png", 850, 300, 37, 50, 35, "Mao's red book - required bedtime reading"]
+redbook = ["red.png", 850, 290, 37, 50, 35, "Mao's red book - required bedtime reading"]
 redribbon = ["redribbon.png", 925, 150, 40 * .6, 43.5 * .6, 15, "PRC red ribbon - awarded in 1st grade"]
 cigarettes = ["cigarettes.png", 1010, 170, 30, 30, 25, "Cigarettes - classic mainland Chinese"]
 
-laptop = ["laptop.png", 1070, 250, 2400 * .04, 1353 * .04, 1500, "Laptop - newly bought Macbook"]
+laptop = ["laptop.png", 1070, 260, 2400 * .04, 1353 * .04, 1500, "Laptop - newly bought Macbook"]
 spinner = ["spinner.png", 980, 420, 30, 30, 5, "Fidget Spinner - received from career fair"]
 ctci = ["ctci.png", 940, 320, 1000 * .05, 1428 * .05, 30, "Cracking the Coding Interview - Must have for any software engineer"]
 soylent1 = ["soylent.png", 1000, 270, 24, 60, 40, "Soylent - doesn't have time to cook?"]
 soylent2 = ["soylent.png", 880, 270, 24, 60, 40, "Soylent - too much time spent coding"]
 
-chinalamp = ["chinalamp.png", 1000, 125,70, 70, 95, "Fancy laptop - easily breakable"]
+chinalamp = ["chinalamp.png", 1000, 125,70, 70, 95, "Expensive lamp - easily breakable"]
 china = ["champ.png", 925, 145, 500 * .15, 309 * .15, 85, "China - so tempted to smash it right now"]
 tea = ["tea.png", 840, 145, 988 * .07, 600 * .07, 120, "Tea set - very traditional"]
 
@@ -90,7 +90,7 @@ flashlight = ["flashlight.png", 1030, 360, 35, 35, 30, "Flashlight - good for sn
 
 lotr = ["lotr.png", 1060, 320, 50, 50, 25, "Lord of the Rings - read plenty of times"]
 harry = ["harry.png", 950, 320, 65, 65, 40, "Harry Potter - seems to have lots of dogears"]
-glasses = ["glasses.png", 920, 440, 1000 * .07, 1428 * .07, 15, "Reading glasses - left by the bed"]
+glasses = ["glasses.png", 920, 445, 1000 * .07, 1428 * .07, 15, "Reading glasses - left by the bed"]
 lamp = ["lamp.png", 800, 310, 72, 72, 30, "Night lamp - used for reading"]
 sherlock = ["sherlock.png", 880, 320, 45, 45, 15, "Sherlock Holmes - Chinese translation"]
 
@@ -106,7 +106,7 @@ surprised = ["surprised.png", 1070, 70, 432 * .2, 351 *.2, 2.5, "Pikachu mem
 fortnite = ["fortnite.png", 900, 40, 878 *.08 , 1222 * .08, 6, "Fortnite poster - must be in middle school"]
 
 fridge = ["fridge.png", 920, 200, 220 * .6, 250 * .6, 105, "Fridge - healthy diet"]
-umbrella = ["umbrella.png", 1100, 180, 1860 * .09, 1760 * .09, 25, "Umbrella - perfect for Hong Kong weather"]
+umbrella = ["umbrella.png", 1100, 185, 1860 * .09, 1760 * .09, 25, "Umbrella - perfect for Hong Kong weather"]
 handbag = ["handbag.png", 850, 230, 500 * .2, 648 * .2, 35, "Handbag - must go out a lot"]
 flowers = ["flowers.png", 880, 120, 633 * .1, .1 * 699, 18, "Flowers - seems to have an admirer"]
 
@@ -203,7 +203,7 @@ ppl[1][4] = ["honorable PRC citizen", 10]
 matrix[1][5] = [spinner, soylent2, soylent1, laptop, ctci]
 ppl[1][5] = ["EECS intern", 150]
 
-matrix[2][0] = [dumbells, protein, gym, bar, shake]
+matrix[2][0] = [dumbells, gym, protein, bar, shake]
 ppl[2][0] = ["gym fanatic", 30]
 matrix[2][1] = [china, chinalamp, tea, empty, empty] 
 ppl[2][1] = ["tea connoisseur", 95]
@@ -212,7 +212,7 @@ ppl[2][2] = ["fantasy geek", 20]
 
 matrix[2][3] = [jordans, fortnite, ps4, surprised, xbox]
 ppl[2][3] = ["white boy", 300]
-matrix[2][4] = [flashlight, knife2, empty, empty, empty]
+matrix[2][4] = [flashlight, knife2, mirror, empty, empty]
 matrix[2][5] = [flowers, fridge, heels, umbrella, handbag]
 ppl[2][5] = ["socalite", 70]
 
@@ -235,7 +235,7 @@ ppl[3][5] = ["Pokemon fan", 55]
 
 function setup() {
   createCanvas(1270, 500);
-  background(14, 82, 165);
+  background(12, 12, 53);
   fill(255, 255, 255);
   let w = 600;
   let cutoff = 800
@@ -245,11 +245,12 @@ function setup() {
   let bottom_left_y = top_left_y + h;
   let bottom_right_x = bottom_left_x + w;
   let bottom_right_y = top_left_y + h;
-  fill(33, 31, 31)
+  fill(13, 13, 15)
   //floor
   quad(0, 500, bottom_left_x, bottom_left_y, bottom_right_x, bottom_right_y, 800, 500);
   //main building
-  fill(56, 53, 53)
+  fill(25, 25, 30)
+  //fill(33, 31, 31)
   rect(bottom_left_x, top_left_y, w, h);
   //left building 
   quad(0, 0, bottom_left_x, top_left_y, bottom_left_x, bottom_left_y, 0, height)
@@ -286,7 +287,7 @@ function setup() {
       railing = createDiv()
       railing.position(bottom_left_x + (w - (ww * 6 + s * 5)) / 2 + (i * s) + (i * ww) - 5 + 10, top_left_y + 10 + wh + (wh*j) + (bh*j) + (y*j) + 10)
       railing.size(bw, bh);
-      railing.style("background-color", "#a85d01");
+      railing.style("background-color", "#5b4004");
       
 
       /*
@@ -299,7 +300,7 @@ function setup() {
   }
   intro = createDiv("Mirror, mirror, on the wall, who's the richest of them all?")   
   intro.id('intro')
-  intro.size(480, 50)
+  intro.size(400, 50)
 }
 
 function displayRoom(ppl, row, column, images) {
@@ -321,15 +322,17 @@ function displayRoom(ppl, row, column, images) {
   bulb.id('bulb')
 
   windows[row][column].id('current')
-  fill(84, 76, 76)
+  fill(18, 16, 1)
   rect(800, 0, 470, 500)
+  fill(51,51,51)
+  rect(800, 301, 470, 199)
   //door
-  fill(33, 21, 15)
+  fill(31, 21, 5)
   rect(1170, 100, 95, 200)
   fill(0)
-  circle(1180, 225, 5)
+  circle(1180, 200, 5)
   //board
-  fill(63, 48, 48)
+  fill(24, 24, 25)
   rect(810, 10, 350, 160)
   //mattress
   fill(255)
@@ -360,7 +363,7 @@ function displayRoom(ppl, row, column, images) {
   image.mouseOut(function() {clearValue()});i
   */
   count++;
-  button = createButton("They must be the richest!");
+  button = createButton("They are!");
   //button.position(1000, 600);
   button.id("finish")
   button.mouseClicked(function() {

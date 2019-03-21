@@ -1,4 +1,15 @@
 @charset "UTF-8";
+
+@font-face {
+	font-family: sad;
+	src:url(sad.ttf);
+}
+
+@font-face {
+	font-family: fancy;
+	src:url(fancy.ttf);
+}
+
 /* CSS Document */
 body {
 	background-color: black;
@@ -9,6 +20,10 @@ body {
 
 }
 
+img:hover {
+	opacity: 0.6
+}
+
 div {
 	color: white;
 	font-size: 16px;
@@ -16,7 +31,7 @@ div {
 }
 
 #current {
-	background-color: yellow;
+	background-color: #bdbf46;
 }
 
 iframe {
@@ -28,10 +43,11 @@ iframe {
 #intro {
 	color: white;
 	font-weight: bolder;
-	font-size: 26px;
+	font-size: 36px;
 	position: absolute;
 	left: 20px;
 	top: 550px;
+	font-family: sad;
 }
 
 #description {
@@ -45,8 +61,9 @@ iframe {
 
 button {
 	color: yellow;
-	background-color: black;
+	background-color: gray;
 	font-size: 26px;
+	font-family: fancy;
 	border-color: black;
 	border-width: 2px;
 	border-style: solid;
@@ -67,7 +84,7 @@ button {
 	
  	/* 1035 
  	*/
-	left: 910px;
+	left: 1000px;
 	top: 580px;
 	height: 50px;
 	z-index: -1;
