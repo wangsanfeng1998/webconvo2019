@@ -412,7 +412,7 @@ function end(ppl, row, column) {
 
     if (row == 2 && column == 4) {
       resizeCanvas(0, 0);
-      let end = createElement('h1', 'You decide to not rob anyone and go back home');
+      let end = createElement('h1', 'You decide to head home and sleep without robbing anyone.');
       end.class('final')
     } else {
       resizeCanvas(0, 0);
